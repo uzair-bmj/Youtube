@@ -1,12 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: RGB(6, 10, 15);
 }
-.container{
+.Navbar{
     border: 2px solid black;
     height: 100px;
     width: 100%;
     background-color: rgb(185, 30, 30);
     padding-top: 50px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    
 }
 .button1{   
     float: right;
@@ -51,7 +59,8 @@ body{
     width: 250px;
     border-radius: 30px;    
     display: inline-block;
-    margin: 20px;
+    margin: 25px;
+    
 
 }
 .video{
